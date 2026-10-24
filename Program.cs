@@ -106,7 +106,7 @@ namespace Lab5_Variant14
             PrintMatrix(newMatrix, "Результат:");
         }
 
-        // Использование параметра по умолчанию (separator = " ") - для доп. баллов
+        // Использование параметра по умолчанию (separator = " ")
         static void PrintMatrix(int[,] matrix, string title, string separator = " ")
         {
             Console.WriteLine(title);
